@@ -6,7 +6,7 @@ model = pickle.load(open('input-bcell.sav', 'rb'))
 
 st.title('Prediksi Antibody Terhadap Penyakit COVID-19')
 
-col1, col2 = st.columns(3)
+col1, col2 = st.columns(2)
 
 with col1:
     start_position = st.number_input('Start Position')
